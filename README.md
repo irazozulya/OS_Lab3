@@ -24,7 +24,7 @@ MFQS (MULTILEVEL FEEDBACK QUEUE SHEDULING )
  A multilevel queue with inverse connections assumes that applications are subject to certain conditions can move between queues. The initial search processes are purchased at 0, where each of them is given a quantum time equal to 8 ms. These processes, which did not have time to complete this time, move for 1. 
  Processes from queue 1 begin to be processed only when queue 0 becomes empty. These processes that were not performed in queue 1 (q = 16 ms) move to space 2. Processes from queue 2 will be processed only yesterday case if queues 0 and 1 become empty.
  The considered strategy is the most universal and is combined in power structures of all previously discussed strategies: FIFO, SJF, Round Robin.
- ![The sheduling scheme](https://github.com/irazozulya/OS_lab2/blob/main/2.png)
+ ![The sheduling scheme](https://github.com/irazozulya/OS_Lab3/blob/main/2.png)
  
  
  ## Examples
